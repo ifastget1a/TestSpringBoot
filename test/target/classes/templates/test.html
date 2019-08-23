@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+</head>
+<body>
+
+<h1>Test Page</h1>
+
+<table>
+<tr>
+	<th>CAT_ID</th>
+	<th>CAT_NAME</th>
+	<th>FILTER_ID</th>
+	<th>IMG_SRC</th>
+</tr>
+<tr th:each="cat:${catList}">
+	<td th:text="${cat.catId}"></td>
+	<td th:text="${cat.catName}"></td>
+	<td th:text="${cat.filterId}"></td>
+	<td th:text="${cat.imgSrc}"></td>
+</tr>
+
+</table>
+</body>
+</html>

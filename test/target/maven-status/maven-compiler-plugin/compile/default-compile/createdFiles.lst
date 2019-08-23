@@ -1,0 +1,7 @@
+com\test\svc\dao\CategoryRepository.class
+com\test\svc\TestSvc.class
+com\test\svc\domain\Category.class
+com\test\svc\TestSvcImpl.class
+com\test\Application.class
+com\test\controller\TestController.class
+com\test\cfg\TableNamingStrategy.class
